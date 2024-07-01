@@ -10,6 +10,6 @@ The Dictionary App is a simple web application that allows users to search for w
 - **Read More Link:** Provides a link to additional information about the word on Wiktionary.
 - **Error Handling:** Displays an error message if the word cannot be found.
 # Technologies Used
- **HTML:** For structuring the web page.
+- **HTML:** For structuring the web page.
 - **CSS:** For styling the application and making it visually appealing.
 - **JavaScript:** For fetching data from the API, processing it, and updating the UI.
