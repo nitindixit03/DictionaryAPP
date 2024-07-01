@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   background-color: #b011115d;
+   font-family: Arial,sans-serif;
+}
+
+nav{
+    padding: 20px;
+    background-color: #008080;
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 36px;
+}
+
+main{
+    min-height: 81.5vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    flex-grow: 1;  
+}
+form input , button{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+form button{
+    background-color: #008080;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #008080;
+    color: aliceblue;
+    padding: 22px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+}
+
+/*Result Div*/
+.result{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result p{
+    margin-top: 10px;
+}
+
+.result p[class="partOfSpeech"]{
+    font-size: italic;
+    color: #808080;
+    margin-top: 20px;
+}
+
+.result div{
+    margin-top: 30px;
+}
+
+.result div a{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 6px;    
+    text-decoration: none;
+    background-color: #008080;
+    color: #fff;
+}
+
+.result li{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+
+.audio{
+    position: fixed;
+    top: 150px;
+    left: 800px;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #008080; /* Change the play button color */
+    border-radius: 50%; /* Make the play button round */
+}
